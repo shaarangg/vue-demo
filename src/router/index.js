@@ -7,6 +7,16 @@ const routes = [
         name: "Home",
         component: Home,
     },
+    {
+        path: "/blogs",
+        name: "Blogs",
+        component: Home,
+    },
+    {
+        path: "/login",
+        name: "Login",
+        component: Home,
+    },
 ];
 
 const router = createRouter({
